@@ -3,10 +3,7 @@ var Wmandrel = Wmandrel || {};
 Wmandrel.GameState = {
   //initiate game settings
   init: function() {
-    //adapt to screen size, fit all the game
-    this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-    this.scale.pageAlignHorizontally = true;
-    this.scale.pageAlignVertically = true;
+
   },
 
   //load the game assets before the game starts
